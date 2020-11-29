@@ -2,9 +2,9 @@
 title: Cyber Infrastructure Machine Learning
 email: lijoey17@hotmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This site is all about cyber infrastructure machine learning.
-baseurl: "/CIML.io/" # the subpath of your site, e.g. /blog/
-url: "https://ci-ml.github.io" # the base hostname & protocol for your site
+  This site is the main project site for the NSF-funded CyberInfrastructure-enabled Machine Learning Project (CIML).
+baseurl: "/index.html" # the subpath of your site, e.g. /blog/
+url: "https://ciml-org.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 #github_username:  jekyll
 #facebook_username: jekyll
@@ -24,10 +24,10 @@ more_vert:
     link:
   option2:
     name: SDSC website
-    link: https://www.sdsc.edu/
+    link: https://www.sdsc.edu/education_and_training/
   option3:
     name: Option 3
-    link: www.myawesomelink.com
+    link: https://www.sdsc.edu/
 
 disqus: false
 disqus_shortname: 'gdgmanagua'
