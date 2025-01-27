@@ -1,6 +1,7 @@
 ---
 layout: home
-title: Index
+title: "CIML Project"
+description: "CIML Project website home page."
 banner: images/logo.png
 ---
 
