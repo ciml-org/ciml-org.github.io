@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "CIML Project"
-description: "CIML Project website home page."
+description: "Welcome to the CIML Project homepage."
+permalink: /
 banner: images/logo.png
 ---
 

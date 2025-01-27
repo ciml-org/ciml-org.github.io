@@ -1,0 +1,21 @@
+---
+# Layout for standard pages
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    <!-- Include other head elements as needed -->
+  </head>
+  <body>
+    {% include header.html %}
+    
+    <main>
+      {{ content }}
+    </main>
+    
+    {% include footer.html %}
+  </body>
+</html>
