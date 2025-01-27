@@ -154,9 +154,28 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include: ["_posts", "hpc-utr"]
+include: ["_posts", "hpc-utr", "_layouts","_includes"]
 exclude: []
 ignore: []
+
+plugins:
+  - jekyll-archives
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll-regex-replace
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-tabs
+  - jekyll-terser
+  - jekyll-toc
+  - jekyll-twitter-plugin
+  - jemoji
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/ ##ignore
