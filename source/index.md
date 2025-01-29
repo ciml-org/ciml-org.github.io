@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: default
 title: "CIML Project"
 description: "Welcome to the CIML Project homepage."
 permalink: /
+nav: true
+nav_order: 1
 banner: images/logo.png
 ---
 

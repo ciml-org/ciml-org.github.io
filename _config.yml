@@ -154,7 +154,7 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include: ["_posts", "hpc-utr", "_layouts","_includes"]
+include: ["_posts", "_layouts","_includes"]
 exclude: []
 ignore: []
 
