@@ -44,19 +44,19 @@ back_to_top: false # set to false to disable the back to top button
 #    trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
 #    trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
-# Directory, commented out because this is from Hexo
-#source_dir: source
-#public_dir: public
-#tag_dir: tags
-#archive_dir: archives
-#category_dir: categories
-#code_dir: downloads/code
-#i18n_dir: :lang
-#skip_render:
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
-default_layout: default
+default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
     enable: true # Open external links in new tab
