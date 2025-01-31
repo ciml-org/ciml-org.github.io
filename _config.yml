@@ -178,14 +178,6 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
-menu: #this is for the nav-bar
-  Home: /
-  About: /about/
-  Training Docs: /training-docs/
-  News & Events: /news-events/
-  Tags: /tags/
-  Archive: /archive/s
-
 # Extensions
 ## Plugins: https://hexo.io/plugins/ ##ignore
 ## Themes: https://hexo.io/themes/ ##ignore 
