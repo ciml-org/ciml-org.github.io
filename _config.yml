@@ -158,25 +158,25 @@ include: ["_posts", "_layouts","_includes"]
 exclude: []
 ignore: []
 
-plugins:
-  - jekyll-remote-theme
-  - jekyll-archives
-  - jekyll-email-protect
-  - jekyll-feed
-  - jekyll-get-json
-  - jekyll-imagemagick
-  - jekyll-jupyter-notebook
-  - jekyll-link-attributes
-  - jekyll-minifier
-  - jekyll-paginate-v2
-  - jekyll-regex-replace
+#plugins:
+#  - jekyll-remote-theme
+#  - jekyll-archives
+#  - jekyll-email-protect
+#  - jekyll-feed
+#  - jekyll-get-json
+#  - jekyll-imagemagick
+#  - jekyll-jupyter-notebook
+#  - jekyll-link-attributes
+#  - jekyll-minifier
+#  - jekyll-paginate-v2
+#  - jekyll-regex-replace
   #- jekyll/scholar
-  - jekyll-sitemap
-  - jekyll-tabs
+#  - jekyll-sitemap
+#  - jekyll-tabs
   #- jekyll-terser
-  - jekyll-toc
-  - jekyll-twitter-plugin
-  - jemoji
+#  - jekyll-toc
+#  - jekyll-twitter-plugin
+#  - jemoji
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/ ##ignore
