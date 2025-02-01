@@ -1,25 +1,22 @@
 ---
 layout: about
-title: about
+title: CIML Project
+description:  "Welcome to the CIML Project homepage."
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: logo.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+# CIML Development Website
+The Cyberinfrastructure-enabled Machine Learning (CIML) program is funded by the NSF [Training-based Workforce Development for Advanced Cyberinfrastructure (CyberTraining) Program](https://beta.nsf.gov/funding/opportunities/training-based-workforce-development-advanced-cyberinfrastructure). The CIML training program is targeted towards the NSF research workforce who need to develop machine learning applications that will run on the national cyberinfrastructure (CI) at scale. At the heart of this project is the CI-enabled Machine Learning (CIML) training system and repository that will support the development of cyberliteracy in the ML space. Unlike much of current ML-related training material found easily online, CIML material will be centered on science and engineering applications that make use of CI-enabled ML techniques and will be used to train a research workforce that is capable of understanding the challenges of working with CI, new HPC architectures, software, and applications.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+The user community for CIML training material will include students (undergraduate, graduate), postdocs, PIs, researchers, and educators, HPC trainers, each with their own diverse backgrounds and application requirements. The project will support national educational goals by ensuring that the CI modules run on advanced CI tools and resources, and that core literacy and discipline appropriate advanced skills in advanced CI will be integrated into curriculum and instructional material.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+CIML will support national security concerns by facilitating a workforce capable of developing ML applications in scientific domains such as climate and weather, the biosciences, physics, chemistry. As a result of our outreach and extension of our training efforts, this program will impact thousands of users and help develop the next generation of the CI research workforce. CIML training material will be available online, so the project has an unlimited potential to reach beyond the NSF cyber workforce and to impact other communities including hospital and medical treatment systems, transportation and electrical monitoring systems, stock market monitoring systems, and disaster response systems.
