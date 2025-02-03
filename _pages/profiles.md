@@ -1,8 +1,8 @@
 ---
 layout: profiles
-permalink: /people/
-title: people
-description: members of the lab or group
+permalink: /profiles/
+title: About
+description: About Our Team
 nav: true
 nav_order: 2
 
@@ -10,19 +10,39 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: MaryThomas.jpeg
+    content: mary_thomas.md
     image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
-  - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
+    more_info: 
+
+  - align: right
+    image: MartyKandes.jpeg
+    content: marty_kandes.md
     image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+    more_info: 
+      
+  - align: right
+      image: AndyGoetz.jpeg
+      content: andreas_goetz.md
+      image_circular: false # crops the image to make it circular
+      more_info: 
+      
+    - align: right
+      image: pPaulRedriguez.jpeg
+      content: paul_rodriquez.md
+      image_circular: false # crops the image to make it circular
+      more_info: 
+
+  - align: right
+      image: PeterRose.jpeg
+      content: peter_rose.md
+      image_circular: false # crops the image to make it circular
+      more_info: 
+      
+    - align: right
+      image: RobertSinkovits.jpeg
+      content: robert_sinkovits.md
+      image_circular: false # crops the image to make it circular
+      more_info: 
+
 ---
