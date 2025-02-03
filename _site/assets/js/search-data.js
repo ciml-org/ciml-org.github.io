@@ -9,12 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
+  },{id: "nav-news",
+          title: "News",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/news/index.html";
           },
         },{id: "nav-publications",
           title: "publications",
@@ -321,17 +321,6 @@ ninja.data = [{
           window.location.href = "/blog/2022/giscus-comments/";
         
       },
-    },{id: "post-sdsc-ciml-2022-summer-institute",
-      
-        title: "SDSC CIML 2022 Summer Institute",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2022/Summer-Inst/";
-        
-      },
     },{id: "post-displaying-external-posts-on-your-al-folio-blog",
       
         title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
@@ -365,17 +354,6 @@ ninja.data = [{
           window.location.href = "/blog/2021/diagrams/";
         
       },
-    },{id: "post-sdsc-ciml-2021-summer-institute",
-      
-        title: "SDSC CIML 2021 Summer Institute",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2021/Summer-Inst/";
-        
-      },
     },{id: "post-a-distill-style-blog-post",
       
         title: "a distill-style blog post",
@@ -387,17 +365,6 @@ ninja.data = [{
           window.location.href = "/blog/2021/distill/";
         
       },
-    },{id: "post-sdsc-hpc-user-training-to-begin-on-january-22-2021",
-      
-        title: "SDSC HPC User Training to begin on January 22 2021",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2020/SDSC-HPC-User-Training-to-begin-on-January-22-2021/";
-        
-      },
     },{id: "post-a-post-with-twitter",
       
         title: "a post with twitter",
@@ -407,17 +374,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2020/twitter/";
-        
-      },
-    },{id: "post-nsf-award-announced-for-the-ciml-project",
-      
-        title: "NSF Award Announced for the CIML Project",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2020/NSF-Awards-the-CIML-Project/";
         
       },
     },{id: "post-a-post-with-disqus-comments",

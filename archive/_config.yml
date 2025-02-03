@@ -116,7 +116,7 @@ index_generator:
     order_by: -date
 
 
-blog_name: CIML-ORG # blog_name will be displayed in your blog page
+blog_name: CIML Project News & Updates # blog_name will be displayed in your blog page
 blog_description: 
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -179,9 +179,6 @@ ignore: []
 #  - jemoji
 
 # Extensions
-## Plugins: https://hexo.io/plugins/ ##ignore
-## Themes: https://hexo.io/themes/ ##ignore 
-#theme: Al-Folio
 remote_theme: alshedivat/al-folio@main
 
 # Deployment
