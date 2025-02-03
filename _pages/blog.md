@@ -1,11 +1,11 @@
 ---
 layout: default
-permalink: /news/
-title: News
+permalink: /blog/
+title: Blog
 nav: true
 nav_order: 1
 pagination:
-  enabled: true
+  enabled: false
   collection: posts
   permalink: /page/:num/
   per_page: 5
@@ -76,11 +76,7 @@ pagination:
 <h3 class="card-title text-lowercase">{{ post.title }}</h3>
 <p class="card-text">{{ post.description }}</p>
 
-                    {% if post.external_source == blank %}
-                      {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
-                    {% else %}
-                      {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
-                    {% endif %}
+                    {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
                     {% assign year = post.date | date: "%Y" %}
 
                     <p class="post-meta">

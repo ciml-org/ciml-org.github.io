@@ -2,13 +2,13 @@
 layout: post
 title: NSF Award Announced for the CIML Project 
 date: 2020-07-16
-description: this is what included typograms code could look like
+description: "CyberTraining: Implementation: Small: Developing a Best Practices Training Program in Cyberinfrastructure-Enabled Machine Learning Research"
 tags: 
   - CIML 
   - NSF 
   - ML 
   - Best Practices
-categories: sample-posts
+categories: 
 typograms: true
 ---
 <h3>NSF Award Announced for the CIML Project!</h3>

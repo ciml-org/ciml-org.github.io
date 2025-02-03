@@ -9,12 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-news",
-          title: "News",
+  },{id: "nav-blog",
+          title: "Blog",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/news/index.html";
+            window.location.href = "/blog/";
           },
         },{id: "nav-publications",
           title: "publications",
@@ -105,7 +105,7 @@ ninja.data = [{
       
         title: "NSF Award Announced for the CIML Project",
       
-      description: "this is what included typograms code could look like",
+      description: "CyberTraining: Implementation: Small: Developing a Best Practices Training Program in Cyberinfrastructure-Enabled Machine Learning Research",
       section: "Posts",
       handler: () => {
         
