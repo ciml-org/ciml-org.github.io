@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-training-docs",
+  },{id: "nav-about",
+          title: "About",
+          description: "Members of the CIML Project team",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/about/";
+          },
+        },{id: "nav-training-docs",
           title: "Training Docs",
           description: "CIML Traning Material and Documentation",
           section: "Navigation",
