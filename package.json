@@ -3,4 +3,12 @@
     "@shopify/prettier-plugin-liquid": "1.4.0",
     "prettier": "3.1.1"
   }
+}{
+  "scripts": {
+    "build": "bundle exec jekyll build"
+  },
+  "devDependencies": {
+    "@shopify/prettier-plugin-liquid": "1.4.0",
+    "prettier": "3.1.1"
+  }
 }
