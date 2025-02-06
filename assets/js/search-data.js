@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-training-docs",
           title: "Training Docs",
-          description: "CIML Traning Material and Documentation",
+          description: "CIML Training Material and Documentation",
           section: "Navigation",
           handler: () => {
             window.location.href = "/train-matl/";
