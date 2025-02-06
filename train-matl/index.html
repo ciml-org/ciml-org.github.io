@@ -1,352 +1,367 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <!-- Head -->
   <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-  <meta name="description" content="CIML Home Page">
-  <meta name="keyword" content="SDSC, HPC,  CIML">
-  
-    <!-- <link rel="shortcut icon" href="/css/images/logo.png"> -->
-  
-  <title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-      CIML Traning Material and Documentation | CIML Project
-    
-  </title>
-  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href="//cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css" rel="stylesheet">
-  <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/tomorrow.min.css" rel="stylesheet">
-  
-<link rel="stylesheet" href="/css/style.css">
-
-  
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.js"></script>
-  
-  
-  
-  
-    <!-- MathJax support START -->
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        tex2jax: {
-          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-          processEscapes: true,
-          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-        }
-      });
-    </script>
-
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for (i=0; i < all.length; i += 1) {
-          all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-      });
-    </script>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <!-- MathJax support END -->
-  
+    <!-- Metadata, OpenGraph and Schema.org -->
 
 
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
   
   
     
-<script src="/js/local-search.js"></script>
+      Training Docs | CIML
+    
+  
+</title>
+<meta name="author" content="CIML Project">
+<meta name="description" content="CIML Traning Material and Documentation">
+
+  <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
-<meta name="generator" content="Hexo 6.2.0"></head>
-<!-- <div class="logo"></div> -->
-  <body>
-    <header class="header fixed-header">
-  <div class="header-container">
-    <a class="home-link" href="/">
-      <div class="logo"></div>
-      <span>CIML Project</span>
-    </a>
-    <ul class="right-list">
+
+
+
+
+
+
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+
+
+<!-- Fonts & Icons -->
+<link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
+<link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772">
+<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+
+
+
+  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
+
+<link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
+<link rel="canonical" href="https://ciml.sdsc.edu//train-matl/">
+
+<!-- Dark Mode -->
+<script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script>
+
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
       
-        <li class="list-item">
-          
-            <a href="/" class="item-link">Home</a>
-          
-        </li>
+        <a class="navbar-brand title font-weight-lighter" href="/">
+          CIML
+        </a>
       
-        <li class="list-item">
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
           
-            <a href="/about/" class="item-link">About</a>
+
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">CIML Project
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
           
-        </li>
-      
-        <li class="list-item">
           
-            <a href="/train-matl/" class="item-link">Training Docs</a>
+            
           
-        </li>
-      
-        <li class="list-item">
+            
           
-            <a href="/news/" class="item-link">News & Events</a>
+            
           
-        </li>
-      
-        <li class="list-item">
+            
           
-            <a href="/tags/" class="item-link">Tags</a>
+            
           
-        </li>
-      
-        <li class="list-item">
+            
           
-            <a href="/archives/" class="item-link">Archives</a>
+            
           
-        </li>
-      
-      
-        <li class="menu-item menu-item-search right-list">
-    <a role="button" class="popup-trigger">
-        <i class="fa fa-search fa-fw"></i>
-    </a>
-</li>
-      
-    </ul>
-    <div class="menu">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/about/">About
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item active">
+                  <a class="nav-link" href="/train-matl/">Training Docs
+                    
+                      <span class="sr-only">(current)</span>
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/blog/">Blog
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+          
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              </button>
+            </li>
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme">
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
     </div>
-    <div class="menu-mask">
-      <ul class="menu-list">
-        
-          <li class="menu-item">
-            
-              <a href="/" class="menu-link">Home</a>
-            
-          </li>
-        
-          <li class="menu-item">
-            
-              <a href="/about/" class="menu-link">About</a>
-            
-          </li>
-        
-          <li class="menu-item">
-            
-              <a href="/train-matl/" class="menu-link">Training Docs</a>
-            
-          </li>
-        
-          <li class="menu-item">
-            
-              <a href="/news/" class="menu-link">News & Events</a>
-            
-          </li>
-        
-          <li class="menu-item">
-            
-              <a href="/tags/" class="menu-link">Tags</a>
-            
-          </li>
-        
-          <li class="menu-item">
-            
-              <a href="/archives/" class="menu-link">Archives</a>
-            
-          </li>
-        
-      </ul>
-    </div>
-    
-      <div class="search-pop-overlay">
-    <div class="popup search-popup">
-        <div class="search-header">
-            <span class="search-icon">
-                <i class="fa fa-search"></i>
-            </span>
-            <div class="search-input-container">
-                <input autocomplete="off" autocapitalize="off"
-                    placeholder="Please enter your keyword(s) to search." spellcheck="false"
-                    type="search" class="search-input">
-            </div>
-            <span class="popup-btn-close">
-                <i class="fa fa-times-circle"></i>
-            </span>
-        </div>
-        <div id="search-result">
-            <div id="no-result">
-                <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
-            </div>
-        </div>
-    </div>
-</div>
-    
-  </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
 </header>
 
-    <!-- <div id="article-banner">
-  <h2>CIML Traning Material and Documentation</h2>
-  <p class="post-date">2023-02-10</p>
-  <div class="arrow-down">
-    <a href="javascript:;"></a>
-  </div>
-</div> -->
-<main class="app-body flex-box">
-    <!-- Article START -->
-    <article class="post-article">
-        <section class="markdown-content"><h3>CIML Traning Material and Documentation</h3>
+
+    <!-- Content -->
+    <div class="container mt-5" role="main">
+      
+        
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">Training Docs</h1>
+    <p class="post-description">CIML Traning Material and Documentation</p>
+  </header>
+
+  <article>
+    <p> 
 CIML related documentation repositories.
+</p>
 
-</section>
-        <!-- Tags START -->
-        
-        <!-- Tags END -->
-        <!-- NAV START -->
-        
-
-        <!-- NAV END -->
-        
-        <!-- No Comment -->
-        
-    </article>
-    <!-- Article END -->
-    <!-- Catalog START -->
-    
-    <!-- Catalog END -->
-</main>
-
-<script>
-    (function () {
-        var url = "https://ciml.sdsc.edu/train-matl/index.html";
-        var banner = "";
-        if (banner !== "" && banner !== "undefined" && banner !== "null") {
-            $("#article-banner").css({
-                "background-image": "url(" + banner + ")",
-            });
-        } else {
-            $("#article-banner").geopattern(url);
-        }
-        $(".header").removeClass("fixed-header");
-
-        // error image
-        $(".markdown-content img").on("error", function () {
-            $(this).attr("src", "/css/images/error_icon.png");
-            $(this).css({
-                cursor: "default",
-            });
-        });
-
-        // zoom image
-        $(".markdown-content img").on("click", function () {
-            var src = $(this).attr("src");
-            if (src !== "/css/images/error_icon.png") {
-                var imageW = $(this).width();
-                var imageH = $(this).height();
-
-                var zoom = (($(window).width() * 0.95) / imageW).toFixed(2);
-                zoom = zoom < 1 ? 1 : zoom;
-                zoom = zoom > 2 ? 2 : zoom;
-                var transY = (($(window).height() - imageH) / 2).toFixed(2);
-
-                $("body").append(
-                    '<div class="image-view-wrap"><div class="image-view-inner"><img src="' +
-                        src +
-                        '" /></div></div>'
-                );
-                $(".image-view-wrap").addClass("wrap-active");
-                $(".image-view-wrap img").css({
-                    width: `${imageW}`,
-                    transform: `translate3d(0, ${transY}px, 0) scale3d(${zoom}, ${zoom}, 1)`,
-                });
-                $("html").css("overflow", "hidden");
-
-                $(".image-view-wrap").on("click", function () {
-                    $(this).remove();
-                    $("html").attr("style", "");
-                });
-            }
-        });
-    })();
-</script>
+  </article>
 
   
 
-    <div class="scroll-top">
-  <span class="arrow-icon"></span>
+  
 </div>
-    <footer class="app-footer">
-    <p class="copyright">
-<table style="width:96%" border=0>
-  <tr>
-  <td style="text-align:left"> Project Funded by National Science Foundation Award Number 2017767: <
-     CyberTraining: Developing a Best Practices Training Program in Cyberinfrastructure-Enabled Machine Learning Research </td>
-    <td style="text-align:right" width="5"> &nbsp; </td>
-    <td style="text-align:right" width="80"> <img src="https://ciml-dev-test.github.io/images/nsf-small.png"  width="80" height="80"> </td>
-  </tr>
-</table>
 
-        <br />
-        &copy; 2023 | Powered by
-        <a href="https://hexo.io" target="_blank">Hexo</a>
-        <br />
+      
+    </div>
 
-    </p>
-</footer>
+    <!-- Footer -->
+    
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      © Copyright 2025
+      CIML
+      
+      Project. Project Funded by National Science Foundation Award Number 2017767: CyberTraining: Developing a Best Practices Training Program in Cyberinfrastructure-Enabled Machine Learning Research. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
 
-<script>
-    function async(u, c) {
-        var d = document,
-            t = "script",
-            o = d.createElement(t),
-            s = d.getElementsByTagName(t)[0];
-        o.src = u;
-        if (c) {
-            o.addEventListener(
-                "load",
-                function (e) {
-                    c(null, e);
-                },
-                false
-            );
-        }
-        s.parentNode.insertBefore(o, s);
-    }
-</script>
-<script>
-    async(
-        "//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js",
-        function () {
-            FastClick.attach(document.body);
-        }
-    );
-</script>
+      
+      
+    </div>
+  </footer>
 
-<script>
-    var hasLine = 'true';
-    async(
-        "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js",
-        function () {
-            $("figure pre").each(function (i, block) {
-                var figure = $(this).parents("figure");
-                if (hasLine === "false") {
-                    figure.find(".gutter").hide();
-                }
-                hljs.configure({ useBR: true });
-                var lang = figure.attr("class").split(" ")[1] || "code";
-                var codeHtml = $(this).html();
-                var codeTag = document.createElement("code");
-                codeTag.className = lang;
-                codeTag.innerHTML = codeHtml;
-                $(this).attr("class", "").empty().html(codeTag);
-                figure.attr("data-lang", lang.toUpperCase());
-                hljs.highlightBlock(block);
-            });
-        }
-    );
-</script>
 
-<script src="/js/script.js"></script>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Bootsrap & MDB scripts -->
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+
+  <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+
+
+
+
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script>
+<script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+<!-- Badges -->
+
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+
+
+  <!-- MathJax -->
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script>
+  
+    <script src="/assets/js/mathjax-setup.js?a5bb4e6a542c546dd929b24b8b236dfd"></script>
+    <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+  <!-- Scrolling Progress Bar -->
+  <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script>
+
+
+
+
+
+
+
+  <!-- Back to Top -->
+  <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script>
+  <script>
+    addBackToTop();
+  </script>
+
+
+
+  <!-- Search -->
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script>
+  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
+  <script src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script>
+  <script src="/assets/js/search-data.js"></script>
+  <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script>
+
+
 
 
   </body>
