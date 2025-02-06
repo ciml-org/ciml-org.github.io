@@ -1,0 +1,114 @@
+{% if site.footer_fixed %}
+  <footer class="fixed-bottom app-footer" role="contentinfo">
+    <div class="container mt-0">
+      <p class="copyright">
+        <table style="width:96%" border="0">
+          <tr>
+            <td style="text-align:left">
+              Project Funded by National Science Foundation Award Number 2017767:
+              CyberTraining: Developing a Best Practices Training Program in Cyberinfrastructure-Enabled Machine Learning Research
+            </td>
+            <td style="text-align:right" width="5">&nbsp;</td>
+            <td style="text-align:right" width="80">
+              <img src="https://ciml-dev-test.github.io/images/nsf-small.png" width="80" height="80" alt="NSF Logo">
+            </td>
+          </tr>
+        </table>
+        <br />
+        &copy; {{ 'now' | date: '%Y' }} | Powered by
+        <a href="https://hexo.io" target="_blank">Al-Folio</a>
+        <br />
+        {# 
+          Multiline comments
+          Theme by <a href="https://github.com/yanm1ng">yanm1ng</a> and modified
+          by <a href="https://github.com/Yuu6883">Yuu6883</a>
+        #}
+      </p>
+    </div>
+  </footer>
+{% else %}
+  <footer class="sticky-bottom mt-5 app-footer" role="contentinfo">
+    {% if site.newsletter.enabled %}
+      {% include newsletter.liquid %}
+    {% endif %}
+
+    <div class="container">
+      <p class="copyright">
+        <table style="width:96%" border="0">
+          <tr>
+            <td style="text-align:left">
+              Project Funded by National Science Foundation Award Number 2017767:
+              CyberTraining: Developing a Best Practices Training Program in Cyberinfrastructure-Enabled Machine Learning Research
+            </td>
+            <td style="text-align:right" width="5">&nbsp;</td>
+            <td style="text-align:right" width="80">
+              <img src="https://ciml-dev-test.github.io/images/nsf-small.png" width="80" height="80" alt="NSF Logo">
+            </td>
+          </tr>
+        </table>
+        <br />
+        &copy; {{ 'now' | date: '%Y' }} | Powered by
+        <a href="https://hexo.io" target="_blank">Hexo</a>
+        <br />
+        {# 
+          Multiline comments
+          Theme by <a href="https://github.com/yanm1ng">yanm1ng</a> and modified
+          by <a href="https://github.com/Yuu6883">Yuu6883</a>
+        #}
+      </p>
+    </div>
+  </footer>
+{% endif %}
+
+<!-- Async Script Loader -->
+<script>
+  function asyncLoad(url, callback) {
+    var d = document,
+        t = "script",
+        o = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+    o.src = url;
+    if (callback) {
+      o.addEventListener("load", function (e) {
+        callback(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  }
+</script>
+
+<!-- FastClick Library -->
+<script>
+  asyncLoad("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function () {
+    if (typeof FastClick !== 'undefined') {
+      FastClick.attach(document.body);
+    }
+  });
+</script>
+
+<!-- Highlight.js for Code Highlighting -->
+<script>
+  var hasLine = "{{ site.highlight.line_number }}";
+  asyncLoad("//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js", function () {
+    document.querySelectorAll("figure pre").forEach(function(block) {
+      var figure = block.closest("figure");
+      if (hasLine === "false" && figure.querySelector(".gutter")) {
+        figure.querySelector(".gutter").style.display = "none";
+      }
+      hljs.configure({ useBR: true });
+      var langClass = figure.className.split(" ")[1] || "code";
+      var codeHtml = block.innerHTML;
+      var codeTag = document.createElement("code");
+      codeTag.className = langClass;
+      codeTag.innerHTML = codeHtml;
+      block.className = "";
+      block.innerHTML = "";
+      block.appendChild(codeTag);
+      figure.setAttribute("data-lang", langClass.toUpperCase());
+      hljs.highlightBlock(block);
+    });
+  });
+</script>
+
+<!-- Custom Scripts -->
+{{ 'js/script.js' | asset_url | script_tag }}
