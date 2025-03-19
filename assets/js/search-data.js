@@ -23,12 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/train-matl/";
           },
-        },{id: "nav-blog",
-          title: "Blog",
+        },{id: "nav-news",
+          title: "News",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/news/";
           },
         },{id: "post-sdsc-ciml-2022-summer-institute",
       
